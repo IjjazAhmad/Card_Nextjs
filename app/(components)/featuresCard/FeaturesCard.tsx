@@ -1,9 +1,11 @@
 import { Illistration, QR, cardBg1 } from "@/public/assets/images";
 import Image from "next/image";
 import FeathCardText from "../cardText/FeathCardText";
+import PeopleImg from "../cardImages/PeopleImg";
 export default function FeaturesCard() {
   return (
     <>
+    <PeopleImg/>
       <div
         className=" max-w-screen flex justify-center items-center h-[386px] md:h-[500px] xl:h-[680px] p-4"
         style={{ backgroundImage: `url(${cardBg1.src})` }}

@@ -6,7 +6,7 @@ import CardSec from "./(components)/featuresCard/CardSec";
 export default function Home() {
   return (
     <>
-      <main className="">
+      <main>
         <FeaturesCard />
         {FeatCardObj.map((value: CardSecProps, i) => {
           return (

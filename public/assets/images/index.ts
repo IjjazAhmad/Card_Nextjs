@@ -19,10 +19,12 @@ import IR1 from "./featuresCard/IR-1.svg";
 import IR2 from "./featuresCard/IR-2.svg";
 import IR3 from "./featuresCard/IR-3.svg";
 import Input from "./featuresCard/Input.svg";
-import Milestone  from "./featuresCard/Milestone.svg";
-import Stock  from "./featuresCard/Stock.svg";
-import Trading  from "./featuresCard/TradingBehavior.svg";
-import group  from "./featuresCard/Group.svg";
+import Milestone from "./featuresCard/Milestone.svg";
+import Stock from "./featuresCard/Stock.svg";
+import Trading from "./featuresCard/TradingBehavior.svg";
+import group from "./featuresCard/Group.svg";
+
+import people from "./featuresCard/people.svg";
 
 export {
   cardBg1,
@@ -46,4 +48,5 @@ export {
   Stock,
   Trading,
   group,
+  people,
 };
