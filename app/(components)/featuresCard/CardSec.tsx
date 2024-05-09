@@ -1,20 +1,12 @@
 import React from "react";
-import FeathCardText from "../CardText/FeathCardText";
-type CardSecProps = {
-  text: string;
-  textBold: string;
-  wrap: string;
-  bg: string;
-  cardBg: string;
-  imageFirst: boolean;
-  CardImg: React.FC;
-};
+import FeathCardText from "../cardText/FeathCardText";
+import { CardSecProps } from "@/constants/types";
+
 export default function CardSec({
   text,
   textBold,
   CardImg,
   wrap,
-  bg,
   imageFirst,
   cardBg,
 }: CardSecProps) {

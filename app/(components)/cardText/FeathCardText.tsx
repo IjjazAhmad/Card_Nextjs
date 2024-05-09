@@ -1,8 +1,6 @@
+import { FeathCardTextProps } from "@/constants/types";
 import React from "react";
-type FeathCardTextProps = {
-  text: string;
-  textBold: string;
-};
+
 export default function FeathCardText({ textBold, text }: FeathCardTextProps) {
   return (
     <div>

@@ -1,6 +1,6 @@
 import { Illistration, QR, cardBg1 } from "@/public/assets/images";
 import Image from "next/image";
-import FeathCardText from "../CardText/FeathCardText";
+import FeathCardText from "../cardText/FeathCardText";
 export default function FeaturesCard() {
   return (
     <>
